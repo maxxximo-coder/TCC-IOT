@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+}
+
+h3{
+	font-size: 40px;
+	padding: 70px;
+}
+
+/*---------------------MENU---------------------*/
+
+nav{
+	background-color: rgba(123,104,238);
+	height: 60px;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+}
+
+li{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0px 10px;
+
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+
+/*---------------------CONTEUDO---------------------*/
+
+table {
+  font: 100% sans-serif;
+  border-collapse: collapse;
+  font-family: monospace;
+  border: 10px solid rgba(123,104,238);
+  margin: 20px;
+  font-size: 20px;
+  color: black;
+ 
+}
+
+
+body{
+	background-image: url("../IMAGENS/fundo.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+table td {
+  text-align: right;
+  padding: 10px;
+  border: 1px solid rgba(123,104,238);
+  background-color="green";
+}
+

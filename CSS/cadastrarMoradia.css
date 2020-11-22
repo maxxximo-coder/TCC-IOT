@@ -1,0 +1,97 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+	background-image: url("../IMAGENS/fundo.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+form{
+	width: 500px;
+	margin: 60px auto;
+	background-color: white;
+	padding: 25px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+	display: table;
+}
+
+input{
+	display: block;
+	width: 95%;
+	height: 30px;
+	font-size: 11pt;
+	color: rgba(0,0,0,.7);
+	padding: 5px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+h1{
+	font-size: 11pt;
+	padding: 10px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: rgba(123,104,238);
+}
+
+input[type=submit]
+{
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	background-color: rgba(123,104.238);
+	color: white;
+	border:none;
+	float: right;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+
+
+label{
+	display: block;
+}
+
+
+#nome_cliente{
+	clear: both;
+	background-color: rgba(0,0,0,.2);
+}
+
+
+
+/*---------------------MENU---------------------*/
+
+nav{
+	background-color: rgba(123,104,238);
+	height: 60px;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+}
+
+li{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0px 10px;
+
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
